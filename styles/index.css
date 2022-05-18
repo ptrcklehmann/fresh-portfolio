@@ -12,3 +12,15 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.colors {
+    background-clip: text;
+    text-fill-color: transparent;
+    animation: shine 12s linear infinite;
+}
+
+.colors.theme-color {
+    background: linear-gradient(to right, #f2db92 20%, #b98d14 40%, #b98d14 60%, #f2db92 80%);
+    background-size: 200% auto;
+    background-clip: text;
+}

@@ -10,8 +10,8 @@ export default function Footer() {
           <div className='flex flex-col items-end justify-end lg:flex-row lg:pl-4 lg:w-1/2'>
             <a
               href='https://github.com/ptrcklehmann'
-              className='px-4 py-2 mx-2 font-bold text-white transition-colors duration-200 bg-black border border-black hover:bg-white hover:text-black lg:px-2 lg:mb-0'
-            ><AiFillGithub /></a>
+              className='px-1 py-1 mx-1 font-bold text-white transition-all duration-200 border rounded-md bg-accent-9 border-accent-8 hover:bg-white hover:text-accent-7 hover:border-transparent lg:px-2 lg:mb-0'
+            ><AiFillGithub size={'2rem'}/></a>
             <a
               href={`https://github.com/vercel/next.js/tree/canary/examples/${EXAMPLE_PATH}`}
               className='mx-3 font-bold hover:underline'
