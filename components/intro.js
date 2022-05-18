@@ -13,14 +13,14 @@ export default function Intro() {
         to web development in the past 3 years, after helping{' '}
         <span className='text-transparent transition-all bg-clip-text bg-gradient-to-t from-accent-7 via-accent-9 to-accent-8'>organisations</span> like the{' '}
          <a
-          className='underline transition-all hover:text-transparent bg-clip-text bg-gradient-to-t from-accent-7 via-accent-9 to-accent-8 decoration-accent-7 decoration-solid decoration-8 underline-offset-8'
+          className='underline transition-all duration-500 hover:text-transparent bg-clip-text bg-gradient-to-t from-accent-7 via-accent-9 to-accent-8 decoration-accent-7 decoration-solid decoration-8 underline-offset-8'
           href='https://www.ilo.org/'
         >
           ILO
         </a>{' '}
         and{' '}
         <a
-          className='underline transition-all hover:text-transparent bg-clip-text bg-gradient-to-t from-accent-7 via-accent-9 to-accent-8 decoration-accent-7 decoration-solid decoration-8 underline-offset-8'
+          className='underline transition-all duration-500 hover:text-transparent bg-clip-text bg-gradient-to-t from-accent-7 via-accent-9 to-accent-8 decoration-accent-7 decoration-solid decoration-8 underline-offset-8'
           href='https://www.aviatrixberlin.com/'
         >
           Aviatrix
@@ -38,7 +38,7 @@ export default function Intro() {
         <span className='text-transparent bg-clip-text bg-gradient-to-t from-accent-7 via-accent-9 to-accent-8'>developer</span> and love working with
         <span className='text-transparent bg-clip-text bg-gradient-to-t from-accent-7 via-accent-9 to-accent-8'> React </span> and other hip frameworks.
         If you fancy a chat feel free to <a
-          className='underline transition-all hover:text-transparent bg-clip-text bg-gradient-to-t from-accent-7 via-accent-9 to-accent-8 decoration-accent-7 decoration-solid decoration-8 underline-offset-8'
+          className='underline transition-all duration-500 hover:text-transparent bg-clip-text bg-gradient-to-t from-accent-7 via-accent-9 to-accent-8 decoration-accent-7 decoration-solid decoration-8 underline-offset-8'
           href='malito:ptrcklehmann@gmail.com'
         > drop me a line</a>.
       </p>
