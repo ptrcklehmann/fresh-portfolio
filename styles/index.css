@@ -1,5 +1,14 @@
 /* purgecss start ignore */
+
 @tailwind base;
 @tailwind components;
+
 /* purgecss end ignore */
+
 @tailwind utilities;
+@font-face {
+    font-family: 'GeomanistBold';
+    src: url('../public/fonts/geomanist-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
