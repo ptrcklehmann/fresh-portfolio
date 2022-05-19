@@ -1,6 +1,33 @@
-import { CMS_NAME, CMS_URL } from '../lib/constants'
+import {CMS_NAME,CMS_URL} from '../lib/constants'
+import Typist from "react-typist";
+import { useEffect, useState } from 'react';
 
 export default function Intro() {
+  const scrambleTexts=[
+    'magnificent',
+    'terrific',
+    'wonderful',
+    'superb',
+    'delightful',
+    'pioneering',
+    'magical',
+    'great',
+    'legendary',
+    'funky',
+  ]
+  const [currentTextCounter,setCurrentTextCounter]=useState(0);
+
+  const day=new Date();
+  const weekday=[]
+  weekday[0]="Sunday";
+  weekday[1]="Monday";
+  weekday[2]="Tuesday";
+  weekday[3]="Wednesday";
+  weekday[4]="Thursday";
+  weekday[5]="Friday";
+  weekday[6]="Saturday";
+
+  const dayname=weekday[day.getDay()]
   return (
     <section className='flex flex-col items-center w-full mt-16 mb-16 md:justify-between md:mb-12'>
       <p className='w-full mb-2 text-3xl font-bold leading-normal tracking-tight md:text-7xl md:pr-8'>
@@ -12,7 +39,7 @@ export default function Intro() {
         living in ~~Berlin~~ on the road. I've transitioned from graphic design
         to web development in the past 3 years, after helping{' '}
         <span className='text-transparent transition-all bg-clip-text bg-gradient-to-t from-accent-7 via-accent-8 to-accent-9'>organisations</span> like the{' '}
-         <a
+        <a
           className='underline transition-all duration-500 hover:text-transparent bg-clip-text bg-gradient-to-t from-accent-7 via-accent-8 to-accent-9 decoration-accent-7 decoration-solid decoration-8 underline-offset-8'
           href='https://www.ilo.org/'
         >
@@ -42,6 +69,13 @@ export default function Intro() {
           href='malito:ptrcklehmann@gmail.com'
         > drop me a line</a>.
       </p>
+      <p className='w-full mb-2 text-3xl font-bold leading-normal tracking-tight text-transparent transition-all bg-clip-text bg-gradient-to-t from-accent-7 via-accent-8 to-accent-9 md:text-7xl md:pr-8'>Stay bold <span className='text-type-1'> &</span> <br />
+        have a <Typist key={currentTextCounter} onTypingDone={() => { if (currentTextCounter <= 9) setCurrentTextCounter(currentTextCounter++)
+          else setCurrentTextCounter(0)}} className='text-transparent transition-all bg-clip-text bg-gradient-to-t from-accent-7 via-accent-8 to-accent-9' count>
+        {scrambleTexts[currentTextCounter]}
+        <Typist.Backspace delay={200} count={scrambleTexts[currentTextCounter].length} />
+        </Typist>
+        {dayname}</p>
     </section>
   )
 }

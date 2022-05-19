@@ -13,14 +13,24 @@
     font-style: normal;
 }
 
-.colors {
-    background-clip: text;
-    text-fill-color: transparent;
-    animation: shine 12s linear infinite;
+.Typist .Cursor {
+    display: inline-block;
+    color: #282140;
 }
 
-.colors.theme-color {
-    background: linear-gradient(to right, #f2db92 20%, #b98d14 40%, #b98d14 60%, #f2db92 80%);
-    background-size: 200% auto;
-    background-clip: text;
+.Typist .Cursor--blinking {
+    opacity: 1;
+    animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
