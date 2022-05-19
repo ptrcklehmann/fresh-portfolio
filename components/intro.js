@@ -69,7 +69,7 @@ export default function Intro() {
           href='malito:ptrcklehmann@gmail.com'
         > drop me a line</a>.
       </p>
-      <p className='w-full mb-2 text-3xl font-bold leading-normal tracking-tight text-transparent transition-all bg-clip-text bg-gradient-to-t from-accent-7 via-accent-8 to-accent-9 md:text-7xl md:pr-8'>Stay bold <span className='text-type-1'> &
+      <p className='inline-block w-full mb-2 text-3xl font-bold leading-normal tracking-tight md:text-7xl md:pr-8'><span className='text-transparent bg-clip-text bg-gradient-to-t from-accent-7 via-accent-8 to-accent-9'>Stay bold</span>  <span className='text-type-1'> &
         have a </span><Typist startDelay={300} key={currentTextCounter} onTypingDone={() => { if (currentTextCounter < 9) setCurrentTextCounter(currentTextCounter+1)
           else setCurrentTextCounter(0)}} className='inline-block w-auto text-transparent transition-all bg-clip-text bg-gradient-to-t from-accent-7 via-accent-8 to-accent-9' >
         {scrambleTexts[currentTextCounter]}
