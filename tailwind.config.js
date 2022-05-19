@@ -10,11 +10,12 @@ module.exports = {
         },
         extend: {
             colors: {
-                'accent-1': '#eff0f2',
-                'accent-2': '#DCE6F2',
-                'accent-7': '#2C0AA6',
-                'accent-8': '#6907F2',
-                'accent-9': '#9904D9',
+                'accent-1': '#F6F7F7',
+                'accent-2': '#EEEFF7',
+                'accent-7': '#883DF2',
+                'accent-8': '#B150F2',
+                'accent-9': '#D762D9',
+                'type-1': '#282140',
                 success: '#0070f3',
                 cyan: '#79FFE1',
             },

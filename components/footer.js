@@ -9,13 +9,13 @@ export default function Footer() {
           <div className='flex items-end justify-end lg:flex-row lg:pl-4 lg:w-full'>
             <a
               href='https://github.com/ptrcklehmann'
-              className='px-1 py-1 mx-1 font-bold text-white transition-all duration-500 border rounded-md bg-accent-9 border-accent-8 hover:bg-white hover:text-accent-7 hover:border-transparent lg:px-1 lg:mb-0'
+              className='px-1 py-1 mx-1 font-bold text-white transition-all duration-500 border border-transparent rounded-md bg-gradient-to-t from-accent-7 via-accent-8 to-accent-9 hover:bg-accent-2 hover:text-type-1 hover:border-type-1 lg:px-1 lg:mb-0'
             >
               <AiFillGithub size={'2rem'} />
             </a>
             <a
               href='https://behance.net/ptrcklehmann'
-              className='px-1 py-1 mx-1 font-bold text-white transition-all duration-500 border rounded-md bg-accent-9 border-accent-8 hover:bg-white hover:text-accent-7 hover:border-transparent lg:px-1 lg:mb-0'
+              className='px-1 py-1 mx-1 font-bold text-white transition-all duration-500 border border-transparent rounded-md bg-gradient-to-t from-accent-7 via-accent-8 to-accent-9 hover:bg-accent-2 hover:text-type-1 hover:border-type-1 lg:px-1 lg:mb-0'
             >
               <AiFillBehanceSquare size={'2rem'} />
             </a>
