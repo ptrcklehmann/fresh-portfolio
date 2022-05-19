@@ -13,9 +13,13 @@
     font-style: normal;
 }
 
+.Typist {
+    width: fit-content;
+}
+
 .Typist .Cursor {
-    display: inline-block;
     color: #282140;
+    width: fit-content;
 }
 
 .Typist .Cursor--blinking {
