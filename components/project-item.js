@@ -16,7 +16,7 @@ export default function ProjectItem({post}) {
             <CoverImage
               title={post.title}
               url={post.coverImage.url}
-              slug={styles.gridItem__image}
+              slug={post.slug}
             />
           </div>
         </div>

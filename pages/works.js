@@ -18,7 +18,7 @@ export default function Works({ preview, allPosts }) {
       <Container>
         <div className='pt-40 max-w-7xl'>
           <ul className={styles.gridWrapper}>
-            {allPosts && allPosts.map(post => (<ProjectItem post={post} />))}
+            {allPosts && allPosts.map(post => (<ProjectItem post={post} key={post.title}/>))}
           </ul>
         </div>
       </Container>

@@ -6,7 +6,6 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: ['GeomanistBold', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
     },
     extend: {
       colors: {
