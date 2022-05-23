@@ -52,7 +52,7 @@ export default function Navbar() {
                     {navigation.map((item) => (
                       <ActiveLink
                         href={item.href}
-                        activeClassName='text-white transition-all rounded-md bg-gradient-to-t from-accent-7 via-accent-8 to-accent-9'
+                        activeClassName='transition-all rounded-md bg-gradient-to-t from-accent-7 via-accent-8 to-accent-9'
                         className='text-white transition-all rounded-md bg-gradient-to-t from-accent-7 via-accent-8 to-accent-9 hover:bg-accent-2 hover:text-type-1'
                       >
                         <a
